@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Predict</title>
+    <style>
+      body{
+          /* background: url('static/img/img11.png') ; */
+          background-color: #fefbf5;
+          color: #4d493e;
+          background-size: cover;
+          height: 50%;
+          width: 100%;
+          /* text-align: center; */
+          /* margin-top: -100px; */
+          margin-bottom: 0px;
+      }
+
+      .container {
+          width: 70%;
+          margin-top: 0%;
+          /* box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3); */
+          padding: 40px;
+      }
+      .form-row {
+        margin-left: 5%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h4 class="text-center"><b>RESULT</b></h4>
+        <br>
+        <div style="width: 800px;" id="churnPlot"></div>
+        <h3 class="text-center">Based on graphic above, customer will {{churn}}</h3>
+        <br><br><br>
+        <a role="button" class="btn btn-info form-row" href="/hasil" > Back </a>
+    </div>
+
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- jquery,plotly.js,d3.js -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript">
+    var graphs = {{churnPlot | safe}};
+    Plotly.plot('churnPlot',graphs,{});
+  </script>
+</html>
+
+<!-- The safe filter explicitly marks the string as safe,
+     hence disabling auto-escaping. Once the JSON is parsed into the graph variable,
+     you have passed it to the plotly plot method along with
+     the ID of the div in which to render the line chart. -->
