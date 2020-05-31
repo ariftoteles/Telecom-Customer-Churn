@@ -1,5 +1,5 @@
 # Final-Project---Telecom-Customer-Churn
-<h3>About Customer Churn<h3>
+<h3>__About Customer Churn__</h3>
 
 Customer Churn is the number or presentation of customers who stop using a product or unsubscribe during a certain period, this marks customer dissatisfaction, cheaper offers from competitors, better marketing by competitors, or other causes.
 
