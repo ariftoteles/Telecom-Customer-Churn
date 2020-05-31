@@ -59,7 +59,10 @@ Best Model:
 
 __Home Page__
  ![home](./MyWebsite.png)
- 
+__Analysis__
+ ![Analysis](./Analysis.png)
+__Form Prediction__
+ ![Predict](./Predict.png)
 __Result__
  ![result](./result.png)
 
