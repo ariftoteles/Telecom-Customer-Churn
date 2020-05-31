@@ -47,8 +47,8 @@ Since the dataset is imbalance, I used 4 Experiment :
 
 - Training models use the Imbalance dataset
 - Training model use a balance dataset (Under Sample)
-- Training model use a dataset balance (Random Over Sample)
-- Training model use dataset balance (SMOTE)
+- Training model use a balance dataset (Random Over Sample)
+- Training model use a balance dataset (SMOTE)
 
 Best Model:
 
