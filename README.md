@@ -54,3 +54,12 @@ Best Model:
 
 - Because we used imbalance dataset, evaluation matrics based on Recall,F1 Score, and AUC Score
 - Logistic Regression who train used a dataset balance (Random Over Sample) get highest Recall, F1 Score and AUC Score
+
+<h3>Model Interface</h3>
+
+__Home Page__
+ ![home](./MyWebsite.PNG)
+ 
+__Result__
+ ![result](./result.PNG)
+
