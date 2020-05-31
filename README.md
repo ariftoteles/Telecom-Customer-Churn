@@ -1,16 +1,16 @@
 # Final-Project---Telecom-Customer-Churn
-<h3>__About Customer Churn__</h3>
+<h3>About Customer Churn</h3>
 
 Customer Churn is the number or presentation of customers who stop using a product or unsubscribe during a certain period, this marks customer dissatisfaction, cheaper offers from competitors, better marketing by competitors, or other causes.
 
 In a growing business, the cost of getting new customers is far greater than the cost of keeping existing customers. In addition to having an impact on lossing revenue, customer churn also has an impact on the company's reputation, in such a position it is certainly more difficult to get new customers.
 
-__Purpose__
+<h3>Purpose</h3>
 
 1. Analyze what factors have the potential to cause customers churn
 2. Build Machine Learning Model to predict customers churn
 
-__Dataset__
+<h3>Dataset</h3>
 
 The dataset provide by Kaggle to analyze and predict customer churning. The dataset is a sample data from IBM consists of 7043 samples and 21 columns with the following description:
 - __customerID:__ Customer ID
@@ -35,7 +35,7 @@ The dataset provide by Kaggle to analyze and predict customer churning. The data
 - __TotalCharges:__ The total amount charged to the customer
 - __Churn:__ Whether the customer churned or not (Yes or No)
 
-__Model Prediction__
+<h3>Model Prediction</h3>
 
 Build Supervised Machine Learning with 4 algorithm
 - Logisitic Regression
