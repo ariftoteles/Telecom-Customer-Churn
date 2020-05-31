@@ -58,8 +58,8 @@ Best Model:
 <h3>Model Interface</h3>
 
 __Home Page__
- ![home](./MyWebsite.PNG)
+ ![home](./MyWebsite.png)
  
 __Result__
- ![result](./result.PNG)
+ ![result](./result.png)
 
