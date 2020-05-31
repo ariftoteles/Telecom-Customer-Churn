@@ -53,7 +53,7 @@ Since the dataset is imbalance, I used 4 Experiment :
 Best Model:
 
 - Because we used imbalance dataset, evaluation matrics based on Recall,F1 Score, and AUC Score
-- Logistic Regression who train used a dataset balance (Random Over Sample) get highest Recall, F1 Score and AUC Score
+- Logistic Regression who train used a balance dataset (Random Over Sample) get highest Recall, F1 Score and AUC Score
 
 <h3>Model Interface</h3>
 
