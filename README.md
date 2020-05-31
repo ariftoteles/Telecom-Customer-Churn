@@ -1,9 +1,9 @@
 # Final-Project---Telecom-Customer-Churn
 <h3>About Customer Churn</h3>
 
-Customer Churn is the number or presentation of customers who stop using a product or unsubscribe during a certain period, this marks customer dissatisfaction, cheaper offers from competitors, better marketing by competitors, or other causes.
+Customer Churn is the number or presentation of customers who stop using a product or unsubscribe during a certain period, this is caused by customer dissatisfaction, cheaper offers from competitors, better marketing by competitors, or other causes.
 
-In a growing business, the cost of getting new customers is far greater than the cost of keeping existing customers. In addition to having an impact on lossing revenue, customer churn also has an impact on the company's reputation, in such a position it is certainly more difficult to get new customers.
+In a growing business, the cost of getting new customers is far greater than the cost of keeping existing customers. Customer churn impact on lossing revenue and company's reputation, in such a position it is more difficult to get new customers.
 
 <h3>Purpose</h3>
 
@@ -59,10 +59,16 @@ Best Model:
 
 __Home Page__
  ![home](./MyWebsite.png)
+ 
+ 
 __Analysis__
  ![Analysis](./Analysis.png)
+
+
 __Form Prediction__
  ![Predict](./Predict.png)
+
+
 __Result__
  ![result](./result.png)
 
