@@ -12,7 +12,7 @@ In a growing business, the cost of getting new customers is far greater than the
 
 <h3>Dataset</h3>
 
-The dataset provide by Kaggle to analyze and predict customer churning. The dataset is a sample data from IBM consists of 7043 samples and 21 columns with the following description:
+The dataset provide by [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn) to analyze and predict customer churning. The dataset is a sample data from IBM consists of 7043 samples and 21 columns with the following description:
 - __customerID:__ Customer ID
 - __gender:__ Whether the customer is a male or a female
 - __SeniorCitizen:__ Whether the customer is a senior citizen or not (Yes, No)
