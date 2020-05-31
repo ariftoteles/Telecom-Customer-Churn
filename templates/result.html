@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Predict</title>
+    <style>
+      body{
+          /* background: url('static/img/img11.png') ; */
+          background-color: #fefbf5;
+          color: #4d493e;
+          background-size: cover;
+          height: 50%;
+          width: 100%;
+          /* text-align: center; */
+          /* margin-top: -100px; */
+          margin-bottom: 0px;
+      }
+
+      .container {
+          width: 70%;
+          margin-top: 0%;
+          /* box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3); */
+          padding: 40px;
+      }
+      .form-row {
+        margin-left: 5%;
+      }
+      .panel {
+        border-radius: 0.2rem;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        /* margin-left: 0.1rem; */
+    }
+    .panel.panel-blue {
+        border: 1px solid #969696;
+        /* background-color: #ddedff; */
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h2 class="text-center"><b>RESULT</b></h2>
+        <br><br>
+        <h2 class="text">Customer Description</h2>
+          <div class="row row-cols-4">
+
+              <div class="panel panel-blue text-capitalize">Gender : {{gnd}}</div>
+              <div class="panel panel-blue text-capitalize">Senior Citizen : {{sC}}</div>
+              <div class="panel panel-blue text-capitalize">Partner : {{prT}}</div>
+              <div class="panel panel-blue text-capitalize">Dependents : {{dpD}}</div>
+              <div class="panel panel-blue text-capitalize">Phone Service : {{phnS}}</div>
+              <div class="panel panel-blue text-capitalize">Multiple Lines : {{mltp}}</div>
+              <div class="panel panel-blue text-capitalize">Internet Service : {{itrS}}</div>
+              <div class="panel panel-blue text-capitalize">Online Security : {{oSec}}</div>
+              <div class="panel panel-blue text-capitalize">Online Backup : {{oBac}}</div>
+              <div class="panel panel-blue text-capitalize">Device Protection : {{dProt}}</div>
+              <div class="panel panel-blue text-capitalize">Technical Support : {{tSup}}</div>
+              <div class="panel panel-blue text-capitalize">Streaming TV : {{strTV}}</div>
+              <div class="panel panel-blue text-capitalize">Streaming Movies : {{strMov}}</div>
+              <div class="panel panel-blue text-capitalize">Contract : {{ctrc}}</div>
+              <div class="panel panel-blue text-capitalize">Payment Method : {{payM}}</div>
+              <div class="panel panel-blue text-capitalize">Paperless Billing : {{ppB}}</div>
+              <div class="panel panel-blue text-capitalize">Tenure : {{tnr}} month</div>
+          </div><br>
+          <h2 class="text">Probability of Churning</h2>
+          <div style="width: 800px;" id="churnPlot"></div>  
+        <br>
+        <h2 class="text-center">Customer will {{churn}}</h2>
+        <br><br><br>
+        <a role="button" class="btn btn-info form-row" href="/predik" > Back </a>
+    </div>
+    <!-- <h3>{{combine2}}</h3> -->
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- jquery,plotly.js,d3.js -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript">
+    var graphs = {{churnPlot | safe}};
+    Plotly.plot('churnPlot',graphs,{});
+  </script>
+</html>
+
