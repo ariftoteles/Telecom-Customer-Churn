@@ -6,7 +6,7 @@ Customer Churn is the number or presentation of customers who stop using a produ
 In a growing business, the cost of getting new customers is far greater than the cost of keeping existing customers. Customer churn impact on lossing revenue and company's reputation, in such a position it is more difficult to get new customers.
 
 <hr>
-<h3>Purpose</h3>
+<h3>Objective</h3>
 
 
 1. Analyze what factors have the potential to cause customers churn
