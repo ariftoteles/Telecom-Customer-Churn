@@ -51,10 +51,10 @@ Build Supervised Machine Learning with 4 algorithm
 
 Since the dataset is imbalance, I used 4 Experiment :
 
-- Training models use the Imbalance dataset
-- Training model use a balance dataset (Under Sample)
-- Training model use a balance dataset (Random Over Sample)
-- Training model use a balance dataset (SMOTE)
+- Training models use an Imbalance dataset
+- Training models use a balance dataset (Under Sample)
+- Training models use a balance dataset (Random Over Sample)
+- Training models use a balance dataset (SMOTE)
 
 Best Model:
 
