@@ -9,7 +9,7 @@ In a growing business, the cost of getting new customers is far greater than the
 <h3>Objective</h3>
 
 
-1. Get insight from this dataset
+1. Analyze the factors that are potential causes of customer churn from this dataset
 2. Build Machine Learning Model to predict customers churn
 
 <hr>
