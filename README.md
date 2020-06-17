@@ -45,7 +45,7 @@ The dataset provide by [Kaggle](https://www.kaggle.com/blastchar/telco-customer-
 
 Build Supervised Machine Learning with 4 algorithm
 - Logisitic Regression
-- Decision Tree
+- XGBoost Classifier
 - Random Forest
 - K-Nearest Neighbors methods.
 
@@ -59,7 +59,7 @@ Since the dataset is imbalance, I used 4 Experiment :
 Best Model:
 
 - Because we used imbalance dataset, evaluation matrics based on Recall,F1 Score, and AUC Score
-- Logistic Regression who train used a balance dataset (SMOTE) get highest Recall, F1 Score and AUC Score
+- Logistic Regression who train used a balance dataset (Random Over Sample) get highest Recall, F1 Score and AUC Score
 
 <hr>
 <h3>Model Interface</h3>
